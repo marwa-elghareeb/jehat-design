@@ -1,1 +1,0 @@
-# jehat-design
