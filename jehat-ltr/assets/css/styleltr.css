@@ -752,17 +752,13 @@ ul.breadcrumb-list li:last-child {
 }
 .team-work ,.libraries,.contact-us ,.common-question,.media-section
 {
-    position: relative;
-    margin-top: -123px;
-    padding-bottom: 120px;
-    text-align: center;
-    box-shadow: rgb(0 0 0 / 5%) 0px 4px 20px 7px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 60px 0px;
+    margin-top: -120px;
+}
+.team-work .card-container ,.libraries .card-container,.contact-us .card-container ,.common-question .card-container,.media-section .card-container
+{
+    padding: 60px 40px !important;
     border-radius: 4rem;
-    background: #fff;
+    width: 100% !important 
 }
 .media-section
 {
@@ -995,6 +991,8 @@ ul.breadcrumb-list li:last-child {
 {
     box-shadow: rgb(0 0 0 / 5%) 0px 4px 20px 7px;
     border: 0;
+    border-radius: 10px;
+    --bs-accordion-border-color:unset
 }
 .accordion-button
 {
